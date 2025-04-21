@@ -52,13 +52,11 @@ s3-static-website-hosting/
       "Effect": "Allow",
       "Principal": "*",
       "Action": "s3:GetObject",
-      "Resource": "arn:aws:s3:::your-bucket-name/images/*"
+      "Resource": "arn:aws:s3:::s3-static-website-1-420/images/*"
     }
   ]
 }
 ```
-
-> Replace `your-bucket-name` with your actual bucket name.
 
 ### 4. Test Public Access
 - Open the object URL of a file in `/images/` → should load
@@ -68,7 +66,7 @@ s3-static-website-hosting/
 
 ## 🌐 Result
 
-- ✅ Public: `https://your-bucket.s3-website-<region>.amazonaws.com/images/logo.png`
+- ✅ Public: `https://s3-static-website-1-420.s3.us-east-1.amazonaws.com/images/Montauk+i-495+Logo.png`
 - ❌ Private: `/css/style.css` or `index.html`
 
 ---
@@ -92,9 +90,6 @@ s3-static-website-hosting/
 ### 🔹 S3 Bucket Configuration
 <img src="screenshots/s3-bucket-settings.png" alt="S3 Bucket Static Website Settings" width="600"/>
 
-### 🔹 Folder Structure
-<img src="screenshots/s3-folder-structure.png" alt="Simulated Folder Structure in S3" width="600"/>
-
 ### 🔹 Public File Access
 <img src="screenshots/public-file-access.png" alt="Public Access to /images/logo.png" width="600"/>
 
@@ -102,7 +97,3 @@ s3-static-website-hosting/
 <img src="screenshots/private-file-denied.png" alt="Access Denied for /css/style.css" width="600"/>
 
 ---
-
-## 📌 To-Do
-- [ ] Add CloudFront + HTTPS
-- [ ] Deploy via AWS CLI or Terraform
