@@ -11,8 +11,8 @@ Each folder represents a self-contained project, complete with code, configurati
 Deploy a fully functional static website on Amazon S3 with folder-based access control and IAM policies. 
 Includes public/private folder access, bucket policy configuration, and project documentation.
 
-+### 🚀 [Deploy WordPress on Ubuntu EC2](./wordpress-ec2)
-+Provision an Ubuntu 22.04 LTS EC2 instance in AWS and configure a secure LAMP stack (Apache, MySQL, PHP) to host WordPress. Includes SSH key-pair setup, Security Group rules, database provisioning, PHP extension management, file-permission hardening, and end-to-end installer.
+### 🚀 [Deploy WordPress on Ubuntu EC2](./wordpress-ec2)
+Provision an Ubuntu 22.04 LTS EC2 instance in AWS and configure a secure LAMP stack (Apache, MySQL, PHP) to host WordPress. Includes SSH key-pair setup, Security Group rules, database provisioning, PHP extension management, file-permission hardening, and end-to-end installer.
 
 
 ---
