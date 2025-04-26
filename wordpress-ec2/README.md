@@ -4,8 +4,7 @@
 <a href="https://img.shields.io/badge/AWS-EC2-orange"><img src="https://img.shields.io/badge/AWS-EC2-orange" alt="AWS EC2"/></a>
   <a href="https://img.shields.io/badge/Linux-Ubuntu-blue"><img src="https://img.shields.io/badge/Linux-Ubuntu-blue" alt="Ubuntu"/></a>
   <a href="https://img.shields.io/badge/CMS-WordPress-blueviolet"><img src="https://img.shields.io/badge/CMS-WordPress-blueviolet" alt="WordPress"/></a>
-
-> **Role:** Junior Cloud Engineer  
+ 
 > **Goal:** Spin up a fully-functional WordPress site in AWS, learn core cloud skills, and showcase a production-ready deployment.
 
 ---
@@ -115,4 +114,4 @@ flowchart TD
 - **SSH Authentication Failures:** After key retrieval, SSH still failed due to overly permissive permissions on the private key (`0555`). Addressed by ensuring the key file had `-r--------` (chmod 400) and verifying the correct login user (`ubuntu@...`).
 
 ## End Result
-A fully functional WordPress site running on a secured Ubuntu EC2 instance, accessible over HTTP, with a dedicated MySQL back end and firewall rules in place. This project highlights core cloud engineering competencies—provisioning infrastructure, configuring services, and securing applications—and demonstrates readiness to design scalable, production-grade deployments.
+A fully functional WordPress site running on a secured Ubuntu EC2 instance, accessible over HTTP, with a dedicated MySQL back end and firewall rules in place. This project highlights I took away were: provisioning infrastructure, configuring services, and securing applications. 
