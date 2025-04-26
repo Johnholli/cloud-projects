@@ -1,6 +1,7 @@
 # 🚀 Deploy WordPress on Ubuntu EC2
-
-![WordPress on EC2](./assets/wordpress-ec2-banner.png)
+<a href="https://img.shields.io/badge/AWS-EC2-orange"><img src="https://img.shields.io/badge/AWS-EC2-orange" alt="AWS EC2"/></a>
+  <a href="https://img.shields.io/badge/Linux-Ubuntu-blue"><img src="https://img.shields.io/badge/Linux-Ubuntu-blue" alt="Ubuntu"/></a>
+  <a href="https://img.shields.io/badge/CMS-WordPress-blueviolet"><img src="https://img.shields.io/badge/CMS-WordPress-blueviolet" alt="WordPress"/></a>
 
 > **Role:** Junior Cloud Engineer  
 > **Goal:** Spin up a fully-functional WordPress site in AWS, learn core cloud skills, and showcase a production-ready deployment.
