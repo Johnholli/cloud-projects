@@ -109,7 +109,7 @@ flowchart TD
 
 - **Database Connection Error:** Saw “Access denied for user 'wpuser'@'localhost'” then “Unknown database 'wpdb'.” Fixed by creating the `wpdb` database, resetting grants for `wpuser`, and flushing privileges so WordPress could connect.
 
-- **Shared Folder Mounting for Key Pair:** Attempted to mount a macOS SMB share to retrieve the SSH key, but received `Permission denied` and could not `chmod` on a CIFS volume. Solved by copying `your-key.pem` to the local filesystem (outside the share) where `chmod 400` worked, then successfully SSHing into the EC2 instance. Alternatively, remounted the share with `file_mode=0600` and `vers=3.0` to allow proper key permissions.
+- **Shared Folder Mounting for Key Pair:** Attempted to mount a macOS SMB share to retrieve the SSH key, but received `Permission denied` and could not `chmod` on a CIFS volume. Solved by copying `your-key.pem` to the local filesystem (outside the shared folder) where `chmod 400` worked, then successfully SSHing into the EC2 instance. The final solve was to remount the share folder with `file_mode=0600` and `vers=3.0` to allow proper key permissions.
 
 - **SSH Authentication Failures:** After key retrieval, SSH still failed due to overly permissive permissions on the private key (`0555`). Addressed by ensuring the key file had `-r--------` (chmod 400) and verifying the correct login user (`ubuntu@...`).
 
