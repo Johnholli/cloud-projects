@@ -1,4 +1,6 @@
 # 🚀 Deploy WordPress on Ubuntu EC2
+![Ec2-ubuntu-graphic](https://github.com/user-attachments/assets/5b264806-9dfb-44e1-967e-50a504a064f3)
+
 <a href="https://img.shields.io/badge/AWS-EC2-orange"><img src="https://img.shields.io/badge/AWS-EC2-orange" alt="AWS EC2"/></a>
   <a href="https://img.shields.io/badge/Linux-Ubuntu-blue"><img src="https://img.shields.io/badge/Linux-Ubuntu-blue" alt="Ubuntu"/></a>
   <a href="https://img.shields.io/badge/CMS-WordPress-blueviolet"><img src="https://img.shields.io/badge/CMS-WordPress-blueviolet" alt="WordPress"/></a>
@@ -33,4 +35,4 @@ flowchart TD
     subgraph VPC
       ALB & EC2 & RDS & Bastion
     end
-
+```
