@@ -14,30 +14,16 @@ Includes public/private folder access, bucket policy configuration, and project 
 ### 🚀 [Deploy WordPress on Ubuntu EC2](./wordpress-ec2)
 Provision an Ubuntu 22.04 LTS EC2 instance in AWS and configure a secure LAMP stack (Apache, MySQL, PHP) to host WordPress. Includes SSH key-pair setup, Security Group rules, database provisioning, PHP extension management, file-permission hardening, and end-to-end installer.
 
-
----
-
-## 📁 Folder Structure
-
-```
-cloud-projects/
-├── s3-static-website-hosting/
-│   ├── index.html
-│   ├── css/
-│   ├── images/
-│   ├── screenshots/
-│   ├── bucket-policy.json
-│   └── README.md
-├── README.md  ← (this file)
-```
-
 ---
 
 ## 🧰 Tech Stack Used
-- Amazon Web Services (S3, IAM)
-- HTML / CSS
-- AWS Console & CLI
-- Markdown for documentation
+* Amazon Web Services (S3, IAM)
+* HTML / CSS
+* AWS Console & CLI
+* Markdown for documentation
++* Amazon EC2 (Ubuntu 22.04 LTS), VPC, Security Groups
++* OpenSSH key-pairs
++* Apache 2.4, MySQL 8, PHP 8.x, WordPress 6.x
 
 ---
 
