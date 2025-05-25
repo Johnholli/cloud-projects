@@ -14,8 +14,8 @@ Includes public/private folder access, bucket policy configuration, and project 
 ### 🚀 [Deploy WordPress on Ubuntu EC2](./wordpress-ec2)
 Provision an Ubuntu 22.04 LTS EC2 instance in AWS and configure a secure LAMP stack (Apache, MySQL, PHP) to host WordPress. Includes SSH key-pair setup, Security Group rules, database provisioning, PHP extension management, file-permission hardening, and end-to-end installer.
 
-### 📅 [Daily Task Scheduler Application with Amazon PartyRock] 
-This porject uses Amazon Partyrock to develop a 'Daily Task Scheduler Application' aimed at enhancing our productivity and organization.
+### 📅 [Daily Task Scheduler Application with Amazon PartyRock](./partyrock-task-scheduler) 
+This project uses Amazon Partyrock to develop a 'Daily Task Scheduler Application' aimed at enhancing our productivity and organization.
 
 
 ## 🧰 Tech Stack Used
