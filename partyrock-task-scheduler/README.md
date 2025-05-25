@@ -31,10 +31,10 @@ This project involves building a Daily Task Scheduler using Amazon PartyRock, a 
 
 ## 📸 Screenshots
 
-\[<img width="1073" alt="Screenshot 2025-05-24 at 5 11 21 PM" src="https://github.com/user-attachments/assets/6eede36d-5dd2-454f-afed-2ac5015531e9" />]
-\[<img width="1076" alt="Screenshot 2025-05-24 at 5 12 37 PM" src="https://github.com/user-attachments/assets/f55e1e09-f850-404f-b433-73034037deb3" />]
-\[<img width="1077" alt="Screenshot 2025-05-24 at 5 15 13 PM" src="https://github.com/user-attachments/assets/f0d39721-5b78-4a27-ab75-fc942c5ffe7d" />]
-\[<img width="1075" alt="Screenshot 2025-05-24 at 5 15 51 PM" src="https://github.com/user-attachments/assets/75986198-aa0f-4be4-894f-a30f29b43c77" />]
+<img width="1073" alt="Screenshot 2025-05-24 at 5 11 21 PM" src="https://github.com/user-attachments/assets/6eede36d-5dd2-454f-afed-2ac5015531e9" />
+<img width="1076" alt="Screenshot 2025-05-24 at 5 12 37 PM" src="https://github.com/user-attachments/assets/f55e1e09-f850-404f-b433-73034037deb3" />
+<img width="1077" alt="Screenshot 2025-05-24 at 5 15 13 PM" src="https://github.com/user-attachments/assets/f0d39721-5b78-4a27-ab75-fc942c5ffe7d" />
+<img width="1075" alt="Screenshot 2025-05-24 at 5 15 51 PM" src="https://github.com/user-attachments/assets/75986198-aa0f-4be4-894f-a30f29b43c77" />
 
 ## 🌟 Live Application
 
